@@ -1,10 +1,8 @@
 @extends("mytheam.template")
 @push('titel')
-<title>Demo</title>
+<title>Courses</title>
     
 @endpush
 @section("content")
-<h1>hello</h1>
-{{$name}}
-    {{$id}}
+
 @endsection
