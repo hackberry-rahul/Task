@@ -9,6 +9,6 @@ class Registration extends Model
 {
     use HasFactory;
     protected $tabel='registrations';
-    protected $primarykey='u-id';
+    protected $primaryKey='u_id';
 
 }
