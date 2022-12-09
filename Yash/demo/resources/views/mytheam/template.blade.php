@@ -13,11 +13,12 @@
         <a href="/Student">Student</a>&nbsp;|&nbsp;
         <a href="/courses">Courses</a>&nbsp;|&nbsp;
         <a href="/form">Registration</a>&nbsp;|&nbsp;
+        <a href="/reigster/view">View</a>&nbsp;|&nbsp;
     
 
         <div class="card">
             <div class="card-header">
-                Laravel
+               Welcome to my websit..........
             </div>
             <div class="card-body">
                 @yield('content')
