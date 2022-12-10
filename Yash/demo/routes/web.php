@@ -39,6 +39,8 @@ Route::resource('/photo', PhotoController::class );
 Route::get('/form', [RegistrationControler::class, 'index'] );
 Route::post('/reigster',[RegistrationControler::class,'reigster']);
 Route::get('/reigster/view',[RegistrationControler::class,'view']);
+Route::get('/reigster/delete/{u_id}',[RegistrationControler::class,'delete'])->name('reigster.delete');
+Route::get('/reigster/edit/{u_id}',[RegistrationControler::class,'edit'])->name('reigster.edit');
 
 
 
