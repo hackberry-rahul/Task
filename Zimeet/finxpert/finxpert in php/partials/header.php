@@ -8,8 +8,8 @@
                                 <div class="upper-topbar-contact">
                                     <ul>
                                         <li><i class="fa fa-envelope"></i> contact@finXpert.in</li>
-                                        <li><i class="fa fa-location-arrow"></i> 104 Akash Complex ,
-                                            C.G.Road,Navrangpura,Ahemdabad-380 009.</li>
+                                        <li><a href="https://goo.gl/maps/zQL4r8JUSyPb4MZR8"><i class="fa fa-location-arrow"></i> 104 Akash Complex ,
+                                            C.G.Road,Navrangpura,Ahemdabad-380 009.</a></li>
                                     </ul>
                                 </div>
                             </div>

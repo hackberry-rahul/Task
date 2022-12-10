@@ -11,9 +11,9 @@
                                 <p>We are Providing All kind of Secured and Loans from various financial institutions.
                                 </p>
                                 <ul class="contact-info">
-                                    <li><i class="fa fa-phone"></i> +91 79655-58888</li>
+                                    <li><i class="fa fa-phone"></i> <a href="tel:+917965558888">+91 79655-58888</a></li>
                                     <li><i class="fa fa-envelope"></i> info@finXpert.in</li>
-                                    <li><i class="fa fa-home"></i> 104,Akash Complex,C.G.Road, Ahemdabad.</li>
+                                    <li><a href="https://goo.gl/maps/zQL4r8JUSyPb4MZR8" target="_blank"><i class="fa fa-home"></i>104,Akash Complex,C.G.Road, Ahemdabad.</a></li>
                                 </ul>
                             </div>
                         </div>
