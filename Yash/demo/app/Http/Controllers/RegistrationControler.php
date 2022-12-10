@@ -50,15 +50,15 @@ class RegistrationControler extends Controller
 
 
      public function edit($u_id){
-        $Registration= Registration::find($u_id);
-        if (is_null($Registration)){
-            return redirect()->back();
-        }else{
-            $data = compact('Registration');
-            return view("form")->with($data);
+        // $Registration= Registration::find($u_id);
+        // if (is_null($Registration)){
+        //     return redirect()->back();
+        // }else{
+        //     $data = compact('Registration');
+        //     return view("form")->with($data);
 
         }
 
      }
 
-}
+
