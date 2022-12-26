@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Company;
+use Illuminate\Pagination\Paginator;
 use Illuminate\Http\Request;
 
 
@@ -17,6 +18,7 @@ class companyController extends Controller
     {
         //
         $companies = Company::orderBy('id','desc')->paginate(5);
+        Paginator::useBootstrap();
         return view('companies.index', compact('companies'));
 
         

@@ -53,7 +53,9 @@
                     @endforeach
             </tbody>
         </table>
-        {!! $companies->links() !!}
+        <div style="float: right;">{!! $companies->links() !!}</div>
+        
+        
     </div>
 </body>
 </html>

@@ -19,6 +19,8 @@ return new class extends Migration
             $table->string("email");
             $table->string('address');
             $table->timestamps();
+            $table->softDeletes();
+            
         });
     }
 
