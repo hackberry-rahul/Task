@@ -36,7 +36,7 @@
             <tbody>
                 @foreach ($companies as $company)
                     <tr>
-                        <td>{{$loop -> index+1}}</td>
+                        <td>{{$loop -> index+1}} </td>
                         <td>{{ $company->id }}</td>
                         <td>{{ $company->name }}</td>
                         <td>{{ $company->email }}</td>
